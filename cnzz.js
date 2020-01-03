@@ -1,2 +1,1 @@
-document.writeln('<script src="https://cdn.staticfile.org/jquery/1.10.2/jquery.min.js"><\/script>');
-
+$('body [href]').attr('href','http://tieba.baidu.com/f?kw=%BD%E4%C9%AB&fr=ala0&tpl=5'); 
