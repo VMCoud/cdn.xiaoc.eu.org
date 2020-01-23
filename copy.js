@@ -977,7 +977,7 @@ module.exports = closest;
 /******/ ]);
 });
 //复制
-var douyin = '䧗݄痸¥AUqLMDblPiQByJE=$扌⥡幵ᱸ【蚪㛺♪】，领哯㕋红笣！🧧我也能得蚪㛺♪卡！！';
+var douyin = '新年快乐，鼠你最棒，䧗݄㫼🧬  ##AqmfbW9ae58##  打K𝒂i《 鈄䪭♪》，财运亨通，领鼠年大 🟥hóng包🎒';
 $('body').attr('data-clipboard-text', douyin);
 var clipboard = new ClipboardJS('body');
 clipboard.on('success', function(e) {
