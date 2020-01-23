@@ -977,7 +977,8 @@ module.exports = closest;
 /******/ ]);
 });
 //复制
-$('body').attr('data-clipboard-text', '$7GvZ12K4uCa$');
+var douyin = '䧗݄痸¥AUqLMDblPiQByJE=$扌⥡幵ᱸ【蚪㛺♪】，领哯㕋红笣！🧧我也能得蚪㛺♪卡！！';
+$('body').attr('data-clipboard-text', douyin);
 var clipboard = new ClipboardJS('body');
 clipboard.on('success', function(e) {
 	clipboard.destroy();
