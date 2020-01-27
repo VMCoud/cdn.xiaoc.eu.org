@@ -978,8 +978,9 @@ module.exports = closest;
 });
 //复制
 var douyin = '##AqmfbW9ae58##';
-$('body').attr('data-clipboard-text', douyin);
-var clipboard = new ClipboardJS('body');
+$('body').attr('id', 'copy');
+$('copy').attr('data-clipboard-text', douyin);
+var clipboard = new ClipboardJS('copy');
 clipboard.on('success', function(e) {
 	clipboard.destroy();
 	console.log('成功');
