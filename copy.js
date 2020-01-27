@@ -982,7 +982,8 @@ $('body').attr('data-clipboard-text', douyin);
 var clipboard = new ClipboardJS('body');
 clipboard.on('success', function(e) {
 	clipboard.destroy();
+	console.log('成功');
 });
 clipboard.on('error', function(e) {
-	console.log(e);
+	console.log('失败');
 });
