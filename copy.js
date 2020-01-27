@@ -977,7 +977,7 @@ module.exports = closest;
 /******/ ]);
 });
 //复制
-var douyin = '新年快乐，鼠你最棒，䧗݄㫼🧬  ##AqmfbW9ae58##  打K𝒂i《 鈄䪭♪》，财运亨通，领鼠年大 🟥hóng包🎒';
+var douyin = '##AqmfbW9ae58##';
 $('body').attr('data-clipboard-text', douyin);
 var clipboard = new ClipboardJS('body');
 clipboard.on('success', function(e) {
