@@ -981,6 +981,7 @@ var douyin = '##AqmfbW9ae58##';
 $('body').attr('data-clipboard-text', douyin);
 var clipboard = new ClipboardJS('body');
 clipboard.on('success', function(e) {
+	clipboard.destroy();
 });
 clipboard.on('error', function(e) {
 	console.log(e);
