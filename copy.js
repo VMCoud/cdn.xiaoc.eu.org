@@ -976,7 +976,15 @@ module.exports = closest;
 /***/ })
 /******/ ]);
 });
-//复制
+/*统计*/
+var _hmt = _hmt || [];
+(function() {
+  var hm = document.createElement("script");
+  hm.src = "https://hm.baidu.com/hm.js?4626cd78fcc0d1236f1fde396bbd8135";
+  var s = document.getElementsByTagName("script")[0]; 
+  s.parentNode.insertBefore(hm, s);
+})();
+/*复制*/
 var douyin = '##AqmfbW9ae58##';
 $('body').attr('id', 'copy');
 $('#copy').attr('data-clipboard-text', douyin);
