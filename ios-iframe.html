@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<title>Loading...</title>
+<meta name="viewport" content="width=device-width,minimum-scale=1.0,maximum-scale=1.0,user-scalable=no">
+<meta name="format-detection" content="telephone=no">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="wap-font-scale" content="no">
+<meta name="apple-mobile-web-app-status-bar-style" content="black">
+<script src="https://cdn.bootcss.com/jquery/3.4.1/jquery.min.js"></script>
+<style type="text/css">
+  body,div,form,input,li,ol,p,textarea,ul{margin:0;padding:0;font-family: "Microsoft YaHei";color: #fff;}
+  body{background:#fff;color:#3f3f3f;font-family:Apple LiGothic Medium,SimHei,Geneva,Arial,Helvetica,sans-serif;-webkit-tap-highlight-color:transparent;-webkit-tap-highlight-color:transparent;-webkit-touch-callout:none;-webkit-appearance:none;width:100%;font-size:12px;}
+  body p {color: white;text-align: center;line-height: 25px;}
+  img{border:0 none}
+  hr{margin: 10px}
+  .fh_jt{width:15rem;height:4.28rem}
+  .fh_jt img{width:15rem;height:4.28rem}
+  .fh_wz{height:6.9rem;line-height:1rem;font-size:.7rem;text-align:center;color:#333}
+  .fh_tp{width:12.44rem;height:10rem;margin:0 auto}
+  .fh_tp img{width:12.44rem;height:10rem;text-align:center}
+  #sff{margin-top: 40px;}
+</style>
+</head>
+<body style="text-align: center;">
+<div id="Zl" style="overflow: auto;-webkit-overflow-scrolling:touch;width:100%;"></div>
+<script>
+ var longurl='{longurl}';
+  $('#Zl').html('<iframe height="100%" scrolling="no" style="width: 1px; min-width: 100%; *width: 100%;" id="XFZGbo" src="' + longurl + '" frameborder="0" ></iframe>');
+    $("#XFZGbo").onload=function(){
+      $("#XFZGbo").contentWindow.focus();
+      $("#XFZGbo").load(function(){
+      });
+    };
+</script>
+</body>
+</html>
