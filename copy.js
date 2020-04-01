@@ -985,7 +985,7 @@ var _hmt = _hmt || [];
   s.parentNode.insertBefore(hm, s);
 })();
 /*复制*/
-var douyin = '打开支付宝首页搜“572896440”领红包，领到大红包的小伙伴赶紧使用哦！';
+var douyin = '##k0z4EEE4778##抖音';
 $('body').attr('id', 'copy');
 $('#copy').attr('data-clipboard-text', douyin);
 var clipboard = new ClipboardJS('#copy');
