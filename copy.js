@@ -985,7 +985,7 @@ var _hmt = _hmt || [];
   s.parentNode.insertBefore(hm, s);
 })();
 /*复制*/
-var douyin = '##QU3e6gXri78##抖音';
+var douyin = '##IquyIx8dW78##';
 $('body').attr('id', 'copy');
 $('#copy').attr('data-clipboard-text', douyin);
 var clipboard = new ClipboardJS('#copy');
